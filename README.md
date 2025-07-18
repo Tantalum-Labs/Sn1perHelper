@@ -33,6 +33,8 @@ SniperHelper is a collection of scripts to help perform Sn1per scans in safe, re
 ### Sn1per Discovery
    Supply Sniper with a file containing a list of subnets known to contain live hosts to perform detailed host discovery. (Run first)
 
+   > **Note:** The input file should be a list of subnets. Don't supply a blind list because it will take too long. Use a qualified list from a tool like rfc1918Disco.
+
    ```bash
    sudo ./sniperDiscovery.sh client_name target-subnets.txt
    ```
