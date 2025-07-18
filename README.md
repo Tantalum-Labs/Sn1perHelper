@@ -9,8 +9,9 @@ SniperHelper is a collection of scripts to help perform Sn1per scans in safe, re
    ```bash
    sudo apt update
    git clone https://github.com/Tantalum-Labs/Sn1perHelper.git
+   cd Sn1perHelper
+   ./sniperInstall.sh # If Sn1per is not already installed
    ```
----
 
 ## Use
 
